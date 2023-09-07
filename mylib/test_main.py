@@ -9,7 +9,7 @@ statistics = get_data_descriptive_stats(iris_df)
 print("Descriptive Statistics for Iris Dataset: ")
 print(statistics)
 
-# Add assertions to check if the calculated statistics match the expected values for the Iris dataset
+# Add assertions to check if the calculated statistics match the expected values
 assert statistics['Mean']['sepal_length'] == 5.843333333333335
 assert statistics['Mean']['sepal_width'] == 3.057333333333334
 assert statistics['Mean']['petal_length'] == 3.7580000000000027
