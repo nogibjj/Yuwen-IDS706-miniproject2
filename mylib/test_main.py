@@ -1,8 +1,8 @@
+import pandas as pd
 from main import load_data, get_data_descriptive_stats
 
 #load iris dataset
-datapath = 'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv'
-iris_df = load_data(datapath)
+iris_df = load_data('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv')
 # calculate descriptive statistics
 statistics = get_data_descriptive_stats(iris_df)
 

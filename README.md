@@ -19,5 +19,5 @@ These functions enable loading iris dataset and calculate its descriptive statis
 
 **Modification**
 
-1. update requirements.txt for pandas
+1. update requirements.txt for pandas newest version
 2. update python file
